@@ -27,7 +27,7 @@ namespace Module1.ViewModels
 
         public string Title => "Dialog1";
 
-        public ProgressDialogViewModel(IEventAggregator eventAggregator, ProgressDialogModel model)
+        public ProgressDialogViewModel(ProgressDialogModel model)
         {
             this.Progress = model.Progress;
 
